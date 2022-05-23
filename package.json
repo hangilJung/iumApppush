@@ -1,0 +1,23 @@
+{
+    "name": "apppush",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon app.js",
+        "start": "pm2 start app.js --name=APPPUSH"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.24.0",
+        "dotenv": "^10.0.0",
+        "pm2": "^5.1.2",
+        "winston": "^3.3.3",
+        "winston-daily-rotate-file": "^4.5.5"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
